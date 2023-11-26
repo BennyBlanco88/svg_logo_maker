@@ -58,7 +58,7 @@ async function init() {
     var svgString= "";
     var svg_file = "logo.svg";
 
-    const answer = await inquirer.prompt(questions);
+    const answers = await inquirer.prompt(questions);
 
     var user_text ="";
     if (answers.text.length > 0 && answers.text.length < 4) {
@@ -84,11 +84,11 @@ async function init() {
         user_shape = new Triangle();
         console.log("User selected Triangle shape")
      }
-     else if (user_shpe_type === "Square" || user_shape_type === "square") {
+     else if (user_shape_type === "Square" || user_shape_type === "square") {
         user_shape = new Square();
         console.log("User selected Square shape")
      }
-     else if (user_shpe_type === "Circle" || user_shape_type === "circle") {
+     else if (user_shape_type === "Circle" || user_shape_type === "circle") {
         user_shape = new Circle();
         console.log("User selected Circle shape")
      }
