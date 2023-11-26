@@ -1,5 +1,5 @@
 const filesystem = require('./node_modules/graceful-fs/graceful-fs')
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
 const {Triangle, Circle, Square} = require("./lib/shapes")
 
 class Svg{
