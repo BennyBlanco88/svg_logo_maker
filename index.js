@@ -99,7 +99,7 @@ async function init() {
 
      //Create a new Svg and add shape and text to it
      var svg = new Svg();
-     svg,setTextElement(user_text, user_font_color);
+     svg.setTextElement(user_text, user_font_color);
      svg.setShapeElement(user_shape);
      svgString = svg.render();
 
