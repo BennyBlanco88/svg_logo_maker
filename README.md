@@ -25,6 +25,8 @@ Jest Version 29.4.3
 
 Make sure you have the correct verisons of Node.js, Inquirer.js, and Jest installed 
 
+https://drive.google.com/file/d/1B1CAywfXYs6Ndgxcz8AU2GI_qswLe0xD/view ---- link to view how to run program
+
 ## Authors
 
 Benjamin Langs- B-DOG Designs -https://github.com/BennyBlanco88
